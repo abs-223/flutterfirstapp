@@ -49,7 +49,7 @@ class ContactListPage extends StatelessWidget {
       body: ListView.builder(
         itemCount: contacts.length,
         itemBuilder: (context, index) {
-          return ContactCard(contact: contacts[index]);
+          return ContactCard(contact: contacts[index]); 
         },
       ),
     );

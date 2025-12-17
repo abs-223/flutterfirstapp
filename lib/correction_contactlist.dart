@@ -43,14 +43,12 @@ class _CorrectionContactlistState extends State<CorrectionContactlist> {
           Navigator.of(context).push(
             MaterialPageRoute<void>(
             // builder: (context) => MyHomePage(title: controllerLogin.text),
-            builder: (context) => 
-            CorrectionContactDetail( contact : correctionContacts[index]),
-    ),
+            builder: (context) => CorrectionContactDetail( contact : correctionContacts[index]),
+      ),
   );
         },
         child: Card(
-        
-          //pour ajouter de l'ombre
+          //pour ajouter de l'ombre 
           elevation: 5,
           child: ListTile(
           leading: Image.network(correctionContacts[index].urlUrl),
