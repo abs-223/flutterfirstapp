@@ -1,4 +1,6 @@
-import 'package:fistapp/loadingscreen.dart';
+import 'package:fistapp/correction_contactlist.dart';
+import 'package:fistapp/correction_loadingpage.dart';
+// import 'package:fistapp/loadingscreen.dart';
 // import 'package:fistapp/login.dart';
 // import 'package:fistapp/Compteur.dart';
 // import 'package:fistapp/login.dart';
@@ -17,6 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+    debugShowCheckedModeBanner: false,
       title: 'Cours flutter',
       theme: ThemeData(
         // This is the theme of your application.
@@ -41,7 +44,7 @@ class MyApp extends StatelessWidget {
       // home: Compteur(),
       // home: Login(),
       // home: Login(),
-      home: Loadingscreen(),
+      home: CorrectionLoadingpage(),
     );
   }
 }
