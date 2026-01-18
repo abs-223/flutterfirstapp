@@ -1,5 +1,6 @@
 import 'package:fistapp/correction_contactlist.dart';
 import 'package:fistapp/correction_loadingpage.dart';
+import 'package:fistapp/loadingscreen.dart';
 // import 'package:fistapp/loadingscreen.dart';
 // import 'package:fistapp/login.dart';
 // import 'package:fistapp/Compteur.dart';
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
       // home: Compteur(),
       // home: Login(),
       // home: Login(),
-      home: CorrectionLoadingpage(),
+      home: Loadingscreen(),
     );
   }
 }

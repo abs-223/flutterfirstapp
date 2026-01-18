@@ -53,7 +53,7 @@ var variable = true;
         actions: [
           InkWell(
             onTap: () {
-              variable =!variable;
+              variable =false;
               print("affichage formulaire $variable");
             setState(() {
               
